@@ -1,0 +1,101 @@
+
+.flotante {
+    background-image: url('./Img/Logo.jpg');
+    display: flex;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 1%;
+    position: fixed;
+    background-color: white;
+    height: 3vw;
+    width: 95%;
+    text-align: center;
+    font-size: 1.5vw;
+    border: 1px solid blueviolet;
+    justify-content: space-around;
+    z-index: 1000; 
+    
+}
+
+.enlaces {
+    display: flex;
+    padding: 4%;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.enlaces a {
+    font-size:3dvw;
+    color: white;
+    font-family: 'Calibri Light', Calibri, sans-serif;
+    border-color: black;
+    text-shadow: 
+        3px 3px 0px black,
+        -1px -1px 0px black,
+        1px -1px 0px black,
+        -1px 1px 0px black;
+    text-decoration: none;
+}
+
+.space{
+    width: 100%;
+    height: 5vw;
+    background: linear-gradient(90deg, rgba(222, 42, 121, 1) 0%, rgba(65, 112, 153, 1) 47%, rgba(0, 174, 195, 1) 100%);
+}
+
+.cuerpo{
+    width: 95%;
+    height: 150vw;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1%;
+}
+
+.subCont {
+    display: flex;
+    justify-content: space-around;
+    font-family:'calibri', light calibri, monospace;
+    font-weight: bold;
+    font-size: 1.5vw;
+    width: 95%;
+    height: 20%;
+    margin: 1%;
+}
+
+.contTexto{
+    display: flex;
+    width: 95%;
+    height: 100%;
+    border-radius: 10%;
+    margin: 1%;
+    padding: 1%;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: justify;
+}
+
+.yourService{
+    background-image: url('./Img/red\ conexion.jpg');
+    background-size:cover;
+}
+
+.quienesSomos{
+    background-image: url('Img/quienesSomos.jfif');
+    background-size:cover;
+}
+
+.objetivos{
+    background-image: url('./Img/Objetivo.png');
+    background-size:cover;
+}
+
+.calificacion{
+    background-image: url('./Img/calificacion.jfif');
+    background-size: cover;
+}
+
+.Pie{
+    width: 100%;
+    height: 10vw;
+    background: linear-gradient(90deg, rgba(222, 42, 121, 1) 0%, rgba(65, 112, 153, 1) 47%, rgba(0, 174, 195, 1) 100%);
+}

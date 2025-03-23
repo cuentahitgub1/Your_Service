@@ -15,8 +15,6 @@
     z-index: 1000; 
 }
 
-
-
 .fondo {
     background-image: url('./Imagenes/fondoalba.png');
     border: 1px solid blueviolet;
@@ -27,6 +25,7 @@
     text-transform: capitalize;
     align-items: center;
 }
+
 .enlaces {
     display: flex;
     padding: 4%;
@@ -46,11 +45,10 @@
     text-decoration: none;
 }
 
-
-
 .contador {
     padding: 5%;
 }
+
 .contador1 {
     display: flex;
     color: #3F47CC;
@@ -177,7 +175,7 @@
     height: 90%;
     position: absolute;
     top: 50%;
-    left: 65%;
+    left: 50%;
     transform: translate(-50%, -50%);
     text-align:center;
     color: white;
@@ -205,13 +203,12 @@
     display: inline-flex;
     width: 50%;
     height: 15%;
-    padding: 30px;
+    padding: 10px;
     margin: 30px;
     background-color: #3F47CC;; 
     color: white;
     font-size: 30px;
     font-weight: bold;
-    line-height: 50%; /* Igual a la altura */
     justify-content: center; 
     border-radius: 10px;
     opacity: 0.6; 
@@ -245,7 +242,6 @@
     flex-wrap: nowrap;
     justify-content:center;
     max-width: 90vw; /* Para que no se expanda demasiado */
-    padding: 30px;
 }
 
 .fase{
