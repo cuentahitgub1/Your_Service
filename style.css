@@ -1,0 +1,233 @@
+body{
+    background-color: white;
+    font-family: 'clibri', sans-serif;
+}
+
+.contenedorIntro {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;  /* Centra horizontalmente */
+    align-items: start;      
+    padding: 5px;            
+    font-family: 'clibri', sans-serif;
+    font-size: 14px;
+    background-color: #3F47CC;
+}
+
+.ImgFondo{
+    width: 100%;
+    height: auto;
+    line-height: 24px;
+    object-fit: cover; /*la imagen cubre todo el espacio del div*/
+    opacity: 0.4; /* transparencia para resaltar la letra*/
+    background-color: #3F47CC;
+    padding: 5px;
+}
+
+.Introduccion{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    align-content: end;
+    color: white;
+}
+
+.explicacion{
+    margin-top: 100px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items:flex-end;
+    justify-content: center;
+}
+
+.pasos{
+    display: flex;
+    gap: 10px;
+    opacity: 0.7; 
+    flex-wrap: wrap;
+    justify-content:center;
+    margin-top: 20px;
+    padding: 30px;
+}
+
+
+/* Media Queries para ajustar el ancho en distintos tamaños de pantalla */
+@media (max-width: 768px) {
+    .caja {
+        max-width: 80%; /* En tablets, usa el 80% del ancho */
+    }
+}
+
+@media (max-width: 480px) {
+    .caja {
+        max-width: 100%; /* En móviles, usa el 100% */
+    }
+}
+
+/* Contador Expertos, Clientes, Solicitudes, Municipios*/
+.minicard-columna {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 120px; 
+    height: 130px;
+    opacity: 0.7; /* transparencia para resaltar la letra*/
+    background-color: #3F47CC; /* Color de fondo */
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.bajocontador{
+    font-family: 'clibri', sans-serif;
+    font-size: 15px;
+    color: white; 
+}
+
+.contador{
+    text-align: initial;
+    text-decoration: double;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+/*-- Inicia area para cards oficios --*/
+
+.containerOficios{
+width: 95%;
+margin: 0 auto;
+}
+
+.encabezado{
+width: 100%;
+height: 30px;
+text-align: center;
+padding: 15px;
+color:#3F47CC;
+font-size: 30px;
+}
+
+
+.card{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content:center;
+    margin-top: 20px;
+    padding: 30px;
+}
+
+.minicard{
+    width: 120px;
+    height: 130px;
+    background-color: #3F47CC;
+    border-radius: 10px;
+    display: flex;
+    align-items:flex-end;
+    justify-content: center;
+    padding: 10px;
+    box-shadow: 2px 2px 10px  rgba(0, 0, 0, 0.1);
+} 
+
+a.textito{
+    font-size: 12px;
+    font-weight: bold;
+    text-align:center;
+    color:  #202478;
+    /*padding: 20px;*/
+}
+
+a.textito:hover {
+    color:   #2c318d;
+    font-size: 13px;
+}
+
+.plomero{
+   
+    background-image: url('Img/Plomero.jfif');
+    background-size:cover;
+}
+
+.gasista{
+    background-image: url('Img/Gasista.jfif');
+    background-size:cover;
+}
+
+.herrero{
+    background-image: url('Img/Herrero.jfif');
+    background-size:cover;
+}
+
+.fletero{
+    background-image: url('Img/Fletero.jfif');
+    background-size:cover;
+}
+
+.domestic{
+    background-image: url('Img/Domestico.jfif');
+    background-size:cover;
+}
+
+.cuidadoadultos{
+    background-image: url('Img/CuidadoAdultos.jfif');
+    background-size:cover;
+}
+
+.pintor{
+    background-image: url('Img/Pintor.jfif');
+    background-size:cover;
+}
+
+.alarmas{
+    background-image: url('Img/Alarmas.jfif');
+    background-size:cover;
+}
+
+.cerrajero{
+    background-image: url('Img/Cerrajero.jfif');
+    background-size:cover;
+}
+
+.carpintero{
+    background-image: url('Img/Carpintera.jfif');
+    background-size:cover;
+}
+
+.jardinero{
+    background-image: url('Img/Jardinero.jfif');
+    background-size:cover;
+}
+
+.albanil{
+    background-image: url('Img/Albanil.jfif');
+    background-size:cover;
+}
+
+.aireacond{
+    background-image: url('Img/Aire.jfif');
+    background-size:cover;
+}
+
+.limpalfombras{
+    background-image: url('Img/Alfombras.jfif');
+    background-size:cover;
+}
+
+.techista{
+    background-image: url('Img/Techista.jfif');
+    background-size:cover;
+}
+
+.viajante{
+    background-image: url('Img/Transportista.jfif');
+    background-size:cover;
+}
+
+/* Fin Card Oficios */
