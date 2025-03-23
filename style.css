@@ -1,3 +1,149 @@
+.flotante {
+    background-image: url('./Imagenes/logo.png');
+    display: flex;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 1%;
+    position: fixed;
+    background-color: white;
+    height: 2vw;
+    width: 98%;
+    text-align: center;
+    font-size: 1.5vw;
+    border: 1px solid blueviolet;
+    justify-content: space-around;
+    z-index: 1000; 
+}
+
+
+
+.fondo {
+    background-image: url('./Imagenes/fondoalba.png');
+    border: 1px solid blueviolet;
+    width: 100%; 
+    height: 40vw;
+    background-size: cover;
+    background-position: center;
+    text-transform: capitalize;
+    align-items: center;
+}
+.enlaces {
+    display: flex;
+    padding: 4%;
+    text-align: center;
+    justify-content: space-around;
+}
+.enlaces a {
+    font-size:3dvw;
+    color: white;
+    font-family: 'Calibri Light', Calibri, sans-serif;
+    border-color: black;
+    text-shadow: 
+        3px 3px 0px black,
+        -1px -1px 0px black,
+        1px -1px 0px black,
+        -1px 1px 0px black;
+    text-decoration: none;
+}
+
+
+
+.contador {
+    padding: 5%;
+}
+.contador1 {
+    display: flex;
+    color: #3F47CC;
+    font-size:4dvw;
+    justify-content: space-around;
+}
+.contador1 h2 {
+    font-size: 1.2dvw;
+    color: black;
+    font-weight: bold;
+}
+.contadorexpertos {
+    width: 50%;
+    box-sizing: border-box;
+    border-right: 3px solid rgb(195, 193, 193);
+    border-width: 5px;
+    text-align: center;
+}
+.contadorusuarios {
+    width: 50%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+
+
+.container {
+    padding: 6%;
+    background-color: #c2c6f4;
+}
+.elporque {
+    text-align: center;
+    font-family: 'Calibri Light', Calibri, sans-serif;
+    color: black;
+    font-size:1.5dvw;
+}
+.iconos {
+    display: flex;
+    padding: 5%;
+    color: black;
+    font-size:1dvw;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.seguridad {
+    background-image: url('./Imagenes/seguridad.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 48%;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.facilidad {
+    background-image: url('./Imagenes/facilidad.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 48%;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.comodidad {
+    background-image: url('./Imagenes/comodidad.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 48%;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.inmediatez {
+    background-image: url('./Imagenes/inmediatez.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 48%;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.experiencias {
+    background-image: url('./Imagenes/experiencias.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 48%;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.costos {
+    background-image: url('./Imagenes/costos.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 48%;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
 .cuerpo{
     background-color: white;
     font-family: 'calibri', sans-serif;
