@@ -1,8 +1,3 @@
-body{
-    font-family: 'Nunito', Calibri, sans-serif;
-}
-
-
 .flotante {
     background-image: url('./Img/Logo.jpg');
     display: flex;
