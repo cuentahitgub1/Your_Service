@@ -1,62 +1,139 @@
-body{
+.cuerpo{
     background-color: white;
-    font-family: 'clibri', sans-serif;
+    font-family: 'calibri', sans-serif;
+    padding-top: 5px;
 }
 
 .contenedorIntro {
+    position: relative; /* Mantiene la referencia para los hijos */
     width: 100%;
-    height: auto;
+    height: 100vh;/* para ocupar toda la pantalla*/
     display: flex;
-    justify-content: center;  /* Centra horizontalmente */
-    align-items: start;      
+    justify-content:center;  /* para separar */
+    align-items: center;      
     padding: 5px;            
-    font-family: 'clibri', sans-serif;
-    font-size: 14px;
     background-color: #3F47CC;
 }
 
-.ImgFondo{
+.imgFondo{
     width: 100%;
-    height: auto;
-    line-height: 24px;
+    height: 100%;
     object-fit: cover; /*la imagen cubre todo el espacio del div*/
     opacity: 0.4; /* transparencia para resaltar la letra*/
-    background-color: #3F47CC;
+    position: absolute; /* Para que no afecte el contenido */
+    top: 0;
+    left: 0;
     padding: 5px;
 }
 
-.Introduccion{
+.introduccion{
     width: 100%;
-    height: auto;
+    height: 90%;
     position: absolute;
-    top: 40%;
-    left: 50%;
+    top: 50%;
+    left: 65%;
     transform: translate(-50%, -50%);
-    text-align: center;
-    align-content: end;
+    text-align:center;
     color: white;
 }
 
+.h1intro{
+    font-size: 40px;
+    padding: 5px;
+}
+
+.pintro{
+    font-size: 20px;
+    padding: 5px;
+}
+
+.contIntro{
+    width: 450px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn1 {
+    display: inline-flex;
+    width: 300px;
+    height: 40px;
+    padding: 30px;
+    margin: 30px;
+    background-color: #3F47CC;; 
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 40px; /* Igual a la altura */
+    justify-content: center; 
+    border-radius: 10px;
+    opacity: 0.6; 
+    cursor: pointer; /* Indica que es interactivo */
+    user-select: none; /* Evita la selección de texto */
+}
+
+.btn1:hover {
+    background-color: #007bffcb; ; /* Color más oscuro al pasar el mouse */
+}
+
+.btn1:active {
+    background-color: #004085; /* Color más oscuro al hacer click */
+}
+
 .explicacion{
-    margin-top: 100px;
+    position: relative;
     width: 100%;
     height: auto;
     display: flex;
-    flex-direction: row;
-    align-items:flex-end;
+    align-items:center;
     justify-content: center;
+    padding-bottom: 10px;
 }
 
 .pasos{
     display: flex;
     gap: 10px;
     opacity: 0.7; 
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content:center;
-    margin-top: 20px;
+    max-width: 90vw; /* Para que no se expanda demasiado */
     padding: 30px;
 }
 
+.fase{
+    width: 100px;
+    height: 130px;
+    border-radius: 10px;
+    display: flex;
+    align-items:flex-end;
+    justify-content:flex-end;
+    text-align:center;
+    margin: 30px;
+ }
+
+ p.textito{
+    font-weight: bold;
+ }
+
+.filtro{
+    background-image: url('Img/filtro.jfif');
+    background-size:cover;
+}
+
+.siguiente{
+    background-image: url('Img/siguiente.png');
+    background-size:cover;
+}
+
+.seleccion{
+    background-image: url('Img/seleccion.jfif');
+    background-size:cover;
+}
+
+.contactar{
+    background-image: url('Img/contactar.jpg');
+    background-size:cover;
+}
 
 /* Media Queries para ajustar el ancho en distintos tamaños de pantalla */
 @media (max-width: 768px) {
@@ -71,6 +148,7 @@ body{
     }
 }
 
+/*=================================================*/
 /* Contador Expertos, Clientes, Solicitudes, Municipios*/
 .minicard-columna {
     display: flex;
@@ -98,6 +176,8 @@ body{
     font-weight: bold;
     color: white;
 }
+
+/*====================================*/
 /*-- Inicia area para cards oficios --*/
 
 .containerOficios{
@@ -113,7 +193,6 @@ padding: 15px;
 color:#3F47CC;
 font-size: 30px;
 }
-
 
 .card{
     display: flex;
