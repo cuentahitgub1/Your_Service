@@ -1,24 +1,64 @@
-<!-- Esta pagina fue creada por la empresa Your Service -->
+<!-- Estructura Básica:
+
+El documento comienza con
+<!DOCTYPE html> y tiene la etiqueta <html> con el atributo lang establecido en "es" para indicar que el contenido está
+en español.
+En la sección
+
+<head>, se define la codificación de caracteres como UTF-8, se establece la metaetiqueta de vista para dispositivos
+    móviles y se enlaza un archivo CSS (styles.css) para los estilos. También se establece el título de la página.-->
+
 <!DOCTYPE html>
 <html lang="es">
+
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Service</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Servicios de Trabajadores</title>
 </head>
+
+<!------------------------------------------------->
+
+<!--Cuerpo del Documento:
+
+Dentro de la etiqueta <body>, se incluye un <header> que contiene un título principal (<h1>).
+La sección principal (<main>) tiene dos subsecciones:
+Sección de Trabajadores Disponibles: Un encabezado (<h2>) seguido de un contenedor (<div>) donde se mostrarán los trabajadores disponibles.
+Sección de Solicitud de Servicio: Incluye un formulario (<form>) que permite a los usuarios seleccionar un trabajador y especificar la fecha y la hora para solicitar un servicio.
+Finalmente, hay un <footer> que contiene información de derechos de autor-->
+
 <body>
-    <div class="padre">
-        <div class="Encabezado">
+    <header>
+        <h1>Encuentra a tu Trabajador Ideal</h1>
+    </header>
 
-        </div>
-        <div class="Cuerpo">
+    <main>
+        <section id="trabajadores">
+            <h2>Trabajadores Disponibles</h2>
+            <div id="lista-trabajadores"></div>
+        </section>
 
-        </div>
-        <footer class="Pie">
-            
-        </footer>
-    </div>
-    <script src=""></script>
+        <section id="solicitud">
+            <h2>Solicitar Servicio</h2>
+            <form id="form-solicitud">
+                <label for="trabajador">Seleccionar Trabajador:</label>
+                <select id="trabajador" name="trabajador"></select>
+                <label for="fecha">Fecha:</label>
+                <input type="date" id="fecha" name="fecha" required>
+                <label for="hora">Hora:</label>
+                <input type="time" id="hora" name="hora" required>
+                <button type="submit">Solicitar Visita</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p> 2025 Servicios de Trabajadores</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
+
 </html>
