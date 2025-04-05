@@ -1,5 +1,4 @@
 .flotante {
-    background-image: url('./Img/Logo.jpg');
     display: flex;
     background-size: contain;
     background-repeat: no-repeat;
@@ -11,7 +10,7 @@
     text-align: center;
     font-size: 1.5vw;
     border: 1px solid blueviolet;
-    justify-content: space-around;
+    justify-content: space-between;
     z-index: 1000; 
 }
 
@@ -32,6 +31,7 @@
     text-align: center;
     justify-content: space-around;
 }
+
 .enlaces a {
     font-size:3dvw;
     color: white;
@@ -340,7 +340,7 @@ font-size:3.5 dvw;
 } 
 
 a.textito{
-    font-size: 1 dvw;
+    font-size: 1dvw;
     font-weight: bold;
     text-align:center;
     color:  #202478;
@@ -348,8 +348,8 @@ a.textito{
 }
 
 a.textito:hover {
-    color:   #2c318d;
-    font-size: 13px;
+    color:   #2d6e8b;
+    font-size: 1.2dvw;
 }
 
 .plomero{
@@ -435,39 +435,10 @@ a.textito:hover {
 
 /* Fin Card Oficios */
 
+/*---------- inicia Footer--------------------*/
+
 .Pie{
     width: 100%;
     height: 10vw;
     background: linear-gradient(90deg, rgba(222, 42, 121, 1) 0%, rgba(65, 112, 153, 1) 47%, rgba(0, 174, 195, 1) 100%);
-    text-align: center;
-}
-
-.footer-content {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-}
-
-.footer-content h2 {
-    margin: 10px 0;
-}
-
-.footer-content ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.footer-content ul li {
-    display: inline;
-    margin: 0 15px;
-}
-
-.footer-content ul li a {
-    color: rgb(237, 242, 248);
-    text-decoration: none;
-}
-
-.footer-content ul li a:hover {
-    text-decoration: underline;
 }
