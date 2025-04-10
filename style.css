@@ -87,60 +87,63 @@
     color: black;
     font-size:1.5dvw;
 }
+
+
 .iconos {
     display: flex;
-    padding: 5%;
     color: black;
-    font-size:1dvw;
-    flex-wrap: wrap;
+    flex-wrap:wrap;
     justify-content: space-between;
 }
 .seguridad {
+    display: flex;
+
     background-image: url('./Imagenes/seguridad.png');
     background-size: contain;
     background-repeat: no-repeat;
-    width: 48%;
+    width: 50%;
     margin-bottom: 10px;
     text-align: center;
 }
+
 .facilidad {
     background-image: url('./Imagenes/facilidad.png');
     background-size: contain;
     background-repeat: no-repeat;
-    width: 48%;
     margin-bottom: 10px;
     text-align: center;
+    width: 50%;
 }
 .comodidad {
     background-image: url('./Imagenes/comodidad.png');
     background-size: contain;
     background-repeat: no-repeat;
-    width: 48%;
     margin-bottom: 10px;
+    width: 50%;
     text-align: center;
 }
 .inmediatez {
     background-image: url('./Imagenes/inmediatez.png');
     background-size: contain;
     background-repeat: no-repeat;
-    width: 48%;
     margin-bottom: 10px;
+    width: 50%;
     text-align: center;
 }
 .experiencias {
     background-image: url('./Imagenes/experiencias.png');
     background-size: contain;
     background-repeat: no-repeat;
-    width: 48%;
     margin-bottom: 10px;
+    width: 50%;
     text-align: center;
 }
 .costos {
     background-image: url('./Imagenes/costos.png');
     background-size: contain;
     background-repeat: no-repeat;
-    width: 48%;
     margin-bottom: 10px;
+    width: 50%;
     text-align: center;
 }
 
